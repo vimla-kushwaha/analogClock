@@ -11,6 +11,7 @@
 		950196102BF3BE98003613D0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9501960F2BF3BE98003613D0 /* ContentView.swift */; };
 		950196122BF3BE9A003613D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 950196112BF3BE9A003613D0 /* Assets.xcassets */; };
 		950196152BF3BE9A003613D0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 950196142BF3BE9A003613D0 /* Preview Assets.xcassets */; };
+		9501961C2BF3C0E0003613D0 /* AnalogClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9501961B2BF3C0E0003613D0 /* AnalogClockView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		9501960F2BF3BE98003613D0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		950196112BF3BE9A003613D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		950196142BF3BE9A003613D0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9501961B2BF3C0E0003613D0 /* AnalogClockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalogClockView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 				9501960F2BF3BE98003613D0 /* ContentView.swift */,
 				950196112BF3BE9A003613D0 /* Assets.xcassets */,
 				950196132BF3BE9A003613D0 /* Preview Content */,
+				9501961B2BF3C0E0003613D0 /* AnalogClockView.swift */,
 			);
 			path = analogClock;
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9501961C2BF3C0E0003613D0 /* AnalogClockView.swift in Sources */,
 				950196102BF3BE98003613D0 /* ContentView.swift in Sources */,
 				9501960E2BF3BE98003613D0 /* analogClockApp.swift in Sources */,
 			);

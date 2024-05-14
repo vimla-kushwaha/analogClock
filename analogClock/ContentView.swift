@@ -8,12 +8,18 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var theameColor : Color = .red
+    @State private var currentTime : Date = Date.now
+    @State private var changeRandomColor : Bool = false
+    private var colors: [Color]
+    
+    init(){
+        colors = [.red,.yellow,.blue,.black,.purple,.mint,.orange]
+    }
+    
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            
         }
         .padding()
     }
