@@ -19,9 +19,26 @@ struct ContentView: View {
     
     var body: some View {
         VStack {
-            
+            AnalogClockView(foregroundColor: $theameColor){date in
+                currentTime = date
+                if changeRandomColor{
+                    withAnimation(){
+                        theameColor = colors.randomElement() ?? theameColor
+                    }
+                }
+            }
+            .shadow(color: .black.opacity(0.15),radius: 32)
+            .padding(60)
+            Text(currentTime,style: .time)
+                .font(.system(size: 52))
+            Toggle(isOn: $changeRandomColor){
+                Text("Change Color")
+            }
+            .padding(.horizontal,30)
+            Spacer(minLength: 30)
         }
-        .padding()
+        .frame(maxWidth: .infinity,maxHeight: .infinity)
+        .background(theameColor.opacity(0.15))
     }
 }
 
